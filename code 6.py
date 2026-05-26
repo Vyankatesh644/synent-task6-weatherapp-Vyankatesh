@@ -1,13 +1,13 @@
 import requests
 
 # Enter your API key here
-API_KEY = "fb4493620d73b233e5ff19c72e5ab947"
+API_KEY = "Enter Your Key"
 
 # User input
 city = input("Enter city name: ")
 
 # API URL
-url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={"fb4493620d73b233e5ff19c72e5ab947"}&units=metric"
+url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={"Enter Your Key"}&units=metric"
 
 try:
     # Send request
